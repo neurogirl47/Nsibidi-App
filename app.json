@@ -15,16 +15,38 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dutch84.NsibidiApp",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyCB1-jUfTygI9ICQEF_6EuhvJGz8BPgHMk",
+          "certificateHash": "325767622239-6ce15bossl6livhk7lu917mjo0f62rre.apps.googleusercontent.com",
+          "authRedirect": "exp://10.0.0.150:8081"
+        }
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "config": {
+          "googleSignIn": {
+            "apiKey": "AIzaSyCB1-jUfTygI9ICQEF_6EuhvJGz8BPgHMk",
+            "certificateHash": "325767622239-hlh0rhnh0sv6ejcbbqsihsh7mmkoh64f.apps.googleusercontent.com",
+            "authRedirect": "exp://10.0.0.150:8081"
+          }
+        }
+      },
+      "package": "com.dutch84.NsibidiApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "92d41698-91b8-4488-a984-61f7700bf1d6"
+      }
+    },
+    "scheme": "Nsibidi-App"
   }
 }
